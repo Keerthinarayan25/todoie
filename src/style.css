@@ -1,0 +1,47 @@
+body{
+  background-color: lightgrey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container{
+  width: 350px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.todo-item-list{
+  margin-left: 10px;
+}
+
+.todo-button{
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+}
+.todo-button:hover{
+  background-color: rgb(216, 210, 210);
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+.todo-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.check-box{
+  cursor: pointer;
+}
